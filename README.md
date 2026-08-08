@@ -8,10 +8,11 @@ Restaurant-CFO/
 ├── site/
 │   └── index.html                     صفحه فرود (jollypanda.ir/restaurant-cfo)
 ├── templates/
-│   ├── Restaurant-CFO-Demo-EN.xlsx    نسخه انگلیسی، با داده‌های نمونه پر شده
 │   ├── Restaurant-CFO-Blank-EN.xlsx   نسخه انگلیسی، خام برای شروع کار مشتری
-│   ├── Restaurant-CFO-Demo-FA.xlsx    نسخه فارسی، با داده‌های نمونه پر شده
 │   └── Restaurant-CFO-Blank-FA.xlsx   نسخه فارسی، خام برای شروع کار مشتری
+├── demo/
+│   ├── Restaurant-CFO-Demo-EN.xlsx    نسخه انگلیسی، با داده‌های نمونه پر شده
+│   └── Restaurant-CFO-Demo-FA.xlsx    نسخه فارسی، با داده‌های نمونه پر شده
 └── docs/
     └── راهنمای مدیر مالی رستوران.docx  راهنمای فارسی استفاده از فایل اکسل
 ```
