@@ -78,8 +78,10 @@ is ported.
 - Self-service sign-up and payment/billing
 - POS integrations (Square, Toast, etc.) — CSV import is the MVP substitute
 - Native mobile apps
-- Multi-language UI (Persian/RTL) — build the schema and copy layer so this is easy later,
-  but ship English-only first
+- Multi-language UI (Persian/RTL) — the marketing/landing page is already bilingual
+  (English/Persian toggle, matching jollypanda.ir); build the app's schema and copy layer so a
+  matching in-app bilingual toggle is easy to add later, but ship the app itself English-only
+  first
 - Role-based multi-user access per restaurant (owner + manager + accountant) — MVP is
   one login = one restaurant, full access
 
