@@ -1,0 +1,13 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Nimbus Fitness">
+  <defs>
+    <linearGradient id="g-nimbus-fitness" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0852e"/>
+      <stop offset="100%" stop-color="#be5a29"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#g-nimbus-fitness)"/>
+  <circle cx="640" cy="90" r="150" fill="rgba(255,255,255,0.10)"/>
+  <circle cx="60" cy="440" r="120" fill="rgba(255,255,255,0.08)"/>
+  <rect x="150" y="215" width="220" height="150" rx="14" fill="rgba(255,255,255,0.22)"/><rect x="150" y="215" width="220" height="34" rx="14" fill="rgba(255,255,255,0.32)"/><circle cx="170" cy="232" r="5" fill="rgba(255,255,255,0.55)"/><circle cx="186" cy="232" r="5" fill="rgba(255,255,255,0.55)"/><circle cx="202" cy="232" r="5" fill="rgba(255,255,255,0.55)"/>
+  <text x="400" y="440" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-weight="800" font-size="40" fill="#ffffff" opacity="0.95">Nimbus Fitness</text>
+</svg>

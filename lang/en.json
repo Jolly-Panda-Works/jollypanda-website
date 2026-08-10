@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "dir": "ltr",
+    "code": "en"
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "team": "Team",
+    "about": "About",
+    "cta": "Let's Work Together"
+  },
+  "brand": {
+    "name": "Jolly Panda Studio"
+  },
+  "hero": {
+    "eyebrow": "Creative Software Studio",
+    "title": {
+      "line1": "Jolly Panda",
+      "line2": "Studio"
+    },
+    "subtitle": "We Create Interactive Digital Experiences",
+    "intro": "A small studio crafting games, websites and software with big personality — built to be played with, not just looked at.",
+    "ctaSecondary": "About Us",
+    "ctaPrimary": "Let's Work Together",
+    "scroll": "Scroll"
+  },
+  "aboutPreview": {
+    "eyebrow": "Who We Are",
+    "title": "Digital experiences built around play",
+    "body1": "Jolly Panda Studio designs and builds entertainment-first software — from playful marketing sites to full games and product platforms. Everything we ship is meant to feel good to use, not just function correctly.",
+    "body2": "We're a small, hands-on team, which means every project gets direct attention from the people actually building it — no hand-offs, no layers.",
+    "cta": "More About Us",
+    "meetTeam": "Meet Our Team",
+    "statNumber": "3",
+    "statLabel": "Core Services"
+  },
+  "services": {
+    "eyebrow": "What We Do",
+    "title": "Three crafts, one studio",
+    "subtitle": "Every project draws on the same playful, entertainment-first thinking — whether it's a website, a game, or the software behind them.",
+    "web": {
+      "title": "Website Development",
+      "desc": "Fast, responsive, good-looking websites that represent your brand as well as your best product does.",
+      "point1": "Custom design systems",
+      "point2": "Bilingual & RTL-ready",
+      "point3": "Performance-first builds"
+    },
+    "game": {
+      "title": "Game Development",
+      "desc": "From concept to launch, we build entertaining, polished games designed to be genuinely fun.",
+      "point1": "2D & 3D gameplay",
+      "point2": "Cross-platform builds",
+      "point3": "Original art & sound"
+    },
+    "software": {
+      "title": "Software Development",
+      "desc": "Custom tools and platforms built to be reliable first, and pleasant to use every time after.",
+      "point1": "Product platforms",
+      "point2": "Internal tools",
+      "point3": "API integrations"
+    },
+    "viewAll": "View All Services"
+  },
+  "why": {
+    "eyebrow": "Why Jolly Panda",
+    "title": "Built different, on purpose",
+    "subtitle": "Six reasons studios and founders keep coming back to us.",
+    "entertainment": {
+      "title": "Entertainment Focus",
+      "desc": "Everything we build is judged by one question first: is this actually enjoyable to use?"
+    },
+    "modern": {
+      "title": "Modern Technologies",
+      "desc": "Current tools and frameworks, chosen for the project, not out of habit."
+    },
+    "creative": {
+      "title": "Creative Design",
+      "desc": "Distinct visual identities, not templates — every project looks like itself."
+    },
+    "custom": {
+      "title": "Custom Solutions",
+      "desc": "No one-size-fits-all packages. We build around your actual goals."
+    },
+    "crossplatform": {
+      "title": "Cross Platform",
+      "desc": "Web, desktop or mobile — built once, tuned to feel native everywhere."
+    },
+    "performance": {
+      "title": "Performance First",
+      "desc": "Fast load times and smooth interactions are treated as features, not polish."
+    }
+  },
+  "team": {
+    "eyebrow": "Our People",
+    "title": "The humans behind the panda",
+    "subtitle": "A small, hands-on crew — every project gets direct attention from the people actually building it.",
+    "loading": "Loading the team…",
+    "empty": "Team information is coming soon.",
+    "error": "We couldn't load the team right now."
+  },
+  "cta": {
+    "eyebrow": "Have an idea?",
+    "title": "Let's build something amazing together.",
+    "subtitle": "Tell us what you're making — a game, a site, a product — and we'll tell you honestly whether we're the right studio for it.",
+    "primary": "Start a Conversation",
+    "secondary": "Learn About Us",
+    "backHome": "Back to Home"
+  },
+  "footer": {
+    "tagline": "Interactive digital experiences, built with care in Iran.",
+    "nav": {
+      "title": "Navigate"
+    },
+    "soon": {
+      "title": "Coming Soon",
+      "badge": "Soon",
+      "contact": "Contact",
+      "projectRequest": "Project Request",
+      "blog": "Blog"
+    },
+    "copyright": "© 2026 Jolly Panda Studio. All rights reserved."
+  },
+  "about": {
+    "eyebrow": "Who We Are",
+    "title": "A studio built around one idea: entertainment matters",
+    "intro": "Jolly Panda Studio started with a simple belief — the software behind games, products and brands should be as enjoyable as the entertainment it supports. That belief still shapes everything we build.",
+    "mission": {
+      "title": "Mission",
+      "desc": "To design and build entertainment-first digital products — games, websites and software — that people genuinely enjoy using, not just tolerate."
+    },
+    "vision": {
+      "title": "Vision",
+      "desc": "To become a studio developers, founders and other studios think of first when a project needs both craft and personality."
+    },
+    "valuesIntro": {
+      "title": "Values",
+      "desc": "Four principles guide every decision, from the first sketch to the final release. You'll see them below."
+    },
+    "values": {
+      "eyebrow": "What We Stand For",
+      "title": "Our values, in practice",
+      "entertainment": {
+        "title": "Entertainment-First Philosophy",
+        "desc": "Before we ask if something works, we ask if it's enjoyable. Delight is a requirement, not a bonus feature."
+      },
+      "craft": {
+        "title": "Real Craft",
+        "desc": "We sweat details most teams skip — motion timing, spacing, copy tone — because those details are the experience."
+      },
+      "honesty": {
+        "title": "Straight Talk",
+        "desc": "We tell clients what a project actually needs, even when it's not what they expected to hear."
+      },
+      "ownership": {
+        "title": "Ownership",
+        "desc": "Every project has a name attached to it on our team. Nothing ships without someone standing behind it."
+      }
+    },
+    "process": {
+      "eyebrow": "How We Work",
+      "title": "Our creative development process",
+      "subtitle": "A straightforward path from idea to launch, kept flexible enough for the project to surprise us.",
+      "discover": {
+        "title": "Discover",
+        "desc": "Understand the goal, the audience and what \"success\" actually looks like."
+      },
+      "design": {
+        "title": "Design",
+        "desc": "Explore concepts and visual direction until one feels unmistakably right."
+      },
+      "build": {
+        "title": "Build",
+        "desc": "Develop in focused iterations, testing early and often along the way."
+      },
+      "launch": {
+        "title": "Launch & Support",
+        "desc": "Ship it, watch how people use it, and keep improving from there."
+      }
+    },
+    "tech": {
+      "eyebrow": "Under the Hood",
+      "title": "Modern technologies we build with",
+      "subtitle": "We pick tools for the project at hand rather than defaulting to the same stack every time."
+    },
+    "goals": {
+      "eyebrow": "What's Next",
+      "title": "Where we're headed",
+      "originals": {
+        "title": "Original Titles",
+        "desc": "Growing beyond client work into original games we design and publish ourselves."
+      },
+      "team": {
+        "title": "A Bigger Bamboo Grove",
+        "desc": "Bringing on more designers and engineers who care about craft as much as we do."
+      },
+      "community": {
+        "title": "Community First",
+        "desc": "Opening up more of our process — a blog, a portfolio, and eventually a place to work with us directly."
+      }
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "eyebrow": "Our Services",
+      "title": "What We Build",
+      "intro": "Three crafts, one entertainment-first studio — here's how we approach websites, games, and software."
+    },
+    "web": {
+      "eyebrow": "Website Development",
+      "title": "Modern, responsive websites built to perform",
+      "intro": "We design and develop fast, responsive, high-performance websites that represent your brand as well as your best product does — built to work beautifully on every device.",
+      "highlights": {
+        "1": {
+          "title": "Responsive Websites"
+        },
+        "2": {
+          "title": "High Performance"
+        },
+        "3": {
+          "title": "Modern UI/UX"
+        }
+      },
+      "features": {
+        "1": {
+          "title": "Responsive, Mobile-First Design",
+          "desc": "Every layout is built to adapt beautifully from small phones to large desktops."
+        },
+        "2": {
+          "title": "Bilingual & RTL-Ready",
+          "desc": "Persian and English support with instant switching, built in from the start."
+        },
+        "3": {
+          "title": "Performance & SEO",
+          "desc": "Fast load times, semantic markup, and clean code that search engines understand."
+        },
+        "4": {
+          "title": "Custom CMS & Integrations",
+          "desc": "Content tools and third-party integrations tailored to how your team actually works."
+        }
+      },
+      "process": {
+        "heading": "How We Build Your Website",
+        "steps": {
+          "1": {
+            "title": "Discovery & Planning",
+            "desc": "We map goals, audience, and content before a single pixel is designed."
+          },
+          "2": {
+            "title": "Wireframing & Design",
+            "desc": "Structure and visual direction, refined until it feels right."
+          },
+          "3": {
+            "title": "Development & QA",
+            "desc": "Clean, tested code across every browser and screen size."
+          },
+          "4": {
+            "title": "Launch & Support",
+            "desc": "We ship, monitor, and keep improving after go-live."
+          }
+        }
+      },
+      "cta": {
+        "title": "Have a website in mind?",
+        "desc": "Tell us about your project and we'll help you scope it out.",
+        "button": "Start Your Website Project"
+      }
+    },
+    "game": {
+      "eyebrow": "Game Development",
+      "title": "Entertainment experiences, built to be fun first",
+      "intro": "Jolly Panda Studio is a game development studio focused on entertainment — casual games, playable ads, HTML5 games, and interactive experiences designed to be genuinely fun.",
+      "highlights": {
+        "1": {
+          "title": "Casual Games"
+        },
+        "2": {
+          "title": "Playable Ads"
+        },
+        "3": {
+          "title": "HTML5 & Cross-Platform"
+        }
+      },
+      "features": {
+        "1": {
+          "title": "Casual & Hyper-Casual Games",
+          "desc": "Simple, addictive mechanics designed for quick sessions and high replay value."
+        },
+        "2": {
+          "title": "Playable Ads",
+          "desc": "Interactive ad units that let players try before they install."
+        },
+        "3": {
+          "title": "HTML5 & Cross-Platform Games",
+          "desc": "Lightweight games that run smoothly in-browser and across devices."
+        },
+        "4": {
+          "title": "Interactive Experiences",
+          "desc": "Branded mini-games and playful tools that turn attention into engagement."
+        }
+      },
+      "process": {
+        "heading": "How We Build Your Game",
+        "steps": {
+          "1": {
+            "title": "Concept & Prototyping",
+            "desc": "We test the core mechanic early, before investing in art or polish."
+          },
+          "2": {
+            "title": "Art & Game Design",
+            "desc": "Character, world, and level design shaped around what makes the prototype fun."
+          },
+          "3": {
+            "title": "Development & Playtesting",
+            "desc": "Iterative builds, tuned by real playtesting, not guesswork."
+          },
+          "4": {
+            "title": "Launch & Live-Ops",
+            "desc": "Release, monitor engagement, and keep tuning post-launch."
+          }
+        }
+      },
+      "cta": {
+        "title": "Got a game idea?",
+        "desc": "Pitch us your concept — we'll tell you honestly what it'll take.",
+        "button": "Pitch Your Game Concept"
+      }
+    },
+    "software": {
+      "eyebrow": "Software Development",
+      "title": "Custom software, engineered to scale",
+      "intro": "We build custom software solutions with an emphasis on performance, usability, and scalability — from internal tools to full product platforms.",
+      "highlights": {
+        "1": {
+          "title": "Custom Software"
+        },
+        "2": {
+          "title": "Scalable Solutions"
+        },
+        "3": {
+          "title": "Reliable & Maintainable"
+        }
+      },
+      "features": {
+        "1": {
+          "title": "Custom Product Platforms",
+          "desc": "Software built around your actual workflow, not a generic template."
+        },
+        "2": {
+          "title": "Scalable Architecture",
+          "desc": "Systems designed to grow with your users and your data, not buckle under them."
+        },
+        "3": {
+          "title": "Intuitive UX",
+          "desc": "Interfaces that need little to no onboarding to use well."
+        },
+        "4": {
+          "title": "API & Third-Party Integrations",
+          "desc": "Clean integrations with the tools and services you already rely on."
+        }
+      },
+      "process": {
+        "heading": "How We Build Your Software",
+        "steps": {
+          "1": {
+            "title": "Requirements & Architecture",
+            "desc": "We define scope and design a system that can support it."
+          },
+          "2": {
+            "title": "UX & Technical Design",
+            "desc": "Interface and data models designed together, not separately."
+          },
+          "3": {
+            "title": "Agile Development",
+            "desc": "Short, visible iterations so you always know where the project stands."
+          },
+          "4": {
+            "title": "Deployment & Scaling",
+            "desc": "Reliable releases with room to grow as usage increases."
+          }
+        }
+      },
+      "cta": {
+        "title": "Need custom software?",
+        "desc": "Tell us what you're trying to solve and we'll map out an approach.",
+        "button": "Discuss Your Project"
+      }
+    }
+  },
+  "projectsPage": {
+    "hero": {
+      "eyebrow": "Our Work",
+      "title": "Projects we've built",
+      "intro": "A look at the games, websites and applications we've shipped — search or filter to find what you're after."
+    },
+    "searchPlaceholder": "Search projects…",
+    "searchLabel": "Search projects",
+    "filters": {
+      "all": "All",
+      "website": "Websites",
+      "game": "Games",
+      "application": "Applications"
+    },
+    "categoryLabels": {
+      "website": "Website",
+      "game": "Game",
+      "application": "Application"
+    },
+    "viewProject": "View project",
+    "loading": "Loading projects…",
+    "empty": "No projects match your search yet.",
+    "emptyHint": "Try a different keyword or filter.",
+    "error": "We couldn't load the projects right now.",
+    "resultsCount": {
+      "one": "1 project",
+      "other": "{count} projects"
+    }
+  },
+  "projectDetail": {
+    "back": "Back to Projects",
+    "loading": "Loading project…",
+    "notFound": {
+      "title": "We couldn't find that project",
+      "desc": "It may have been renamed or removed. Take a look at everything we've built instead.",
+      "cta": "Browse All Projects"
+    },
+    "error": "We couldn't load this project right now.",
+    "highlightsTitle": "Highlights",
+    "tagsTitle": "Built With",
+    "cta": {
+      "title": "Have something similar in mind?",
+      "desc": "Tell us about your project and we'll tell you honestly whether we're the right fit.",
+      "button": "Start a Conversation"
+    },
+    "gallery": {
+      "galleryTitle": "Gallery",
+      "playVideo": "Play video",
+      "close": "Close",
+      "next": "Next",
+      "prev": "Previous",
+      "counter": "{current} of {total}"
+    },
+    "actionLinks": {
+      "website": "Visit Website",
+      "appstore": "App Store",
+      "googleplay": "Google Play",
+      "demo": "Live Demo",
+      "github": "View Code"
+    },
+    "share": {
+      "label": "Share",
+      "copyLink": "Copy Link",
+      "copied": "Link Copied",
+      "twitter": "Share on X",
+      "telegram": "Share on Telegram",
+      "linkedin": "Share on LinkedIn",
+      "message": "{project} by {team} — take a look:"
+    },
+    "video": {
+      "title": "Watch It In Action"
+    },
+    "download": {
+      "title": "Try It Yourself",
+      "desc": "Here's where you can check it out directly.",
+      "descFallback": "This one isn't public yet — but we're happy to walk you through it."
+    }
+  }
+}

@@ -1,0 +1,13 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bamboo Dash Screenshot 5">
+  <defs>
+    <linearGradient id="g-bamboo-dash-4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fcdd4e"/>
+      <stop offset="100%" stop-color="#dcb52a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#g-bamboo-dash-4)"/>
+  <circle cx="500" cy="70" r="110" fill="rgba(255,255,255,0.10)"/>
+  <circle cx="50" cy="350" r="90" fill="rgba(255,255,255,0.08)"/>
+  <path d="M220 250 q80 -90 160 0" stroke="rgba(255,255,255,0.4)" stroke-width="10" fill="none" stroke-linecap="round"/><circle cx="220" cy="250" r="10" fill="rgba(255,255,255,0.5)"/><circle cx="380" cy="250" r="10" fill="rgba(255,255,255,0.5)"/>
+  <text x="300" y="350" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-weight="700" font-size="22" fill="#ffffff" opacity="0.9">Screenshot 5</text>
+</svg>

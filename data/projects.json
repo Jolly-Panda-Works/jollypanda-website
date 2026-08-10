@@ -1,0 +1,387 @@
+[
+  {
+    "id": "dopamall",
+    "category": "website",
+    "year": "2026",
+    "tags": [
+      "Next.js",
+      "TypeScript",
+      "Prisma",
+      "SQLite",
+      "Tailwind CSS"
+    ],
+    "image": "assets/projects/dopamall.png",
+    "title": {
+      "en": "Dopamall",
+      "fa": "دوپامال"
+    },
+    "shortDescription": {
+      "en": "A gamified fake e-commerce experience — browse, \"buy\", and save real money instead of spending it, earning XP, streaks and leaderboard rank along the way.",
+      "fa": "یک تجربه فروشگاهی بازی‌گونه و غیرواقعی — بگردید، «بخرید» و به‌جای خرج کردن، پول واقعی پس‌انداز کنید و در این مسیر XP، استریک و رتبه در جدول امتیازات کسب کنید."
+    },
+    "fullDescription": {
+      "en": "Dopamall looks and feels like a real Iranian online store — full catalog, cart, multi-step checkout, simulated payment — but no real money ever changes hands. Every fake purchase converts the listed price into saved money, XP, levels, daily streaks, and achievements, turning the anti-habit of impulse shopping into a rewarding game.\n\nThe storefront and gamification layer run client-side for a snappy feel, while authentication, the product catalog, and leaderboard rankings are served from a real backend (Next.js route handlers + Prisma/SQLite), including a full admin panel for managing products.",
+      "fa": "دوپامال ظاهر و حس یک فروشگاه آنلاین واقعی ایرانی را دارد — کاتالوگ کامل، سبد خرید، تسویه‌حساب چندمرحله‌ای، پرداخت شبیه‌سازی‌شده — اما هیچ پول واقعی‌ای جابه‌جا نمی‌شود. هر خرید ساختگی، قیمت را به پول پس‌انداز‌شده، XP، سطح، استریک روزانه و دستاورد تبدیل می‌کند و عادت خرید تکانشی را به یک بازی پاداش‌دهنده تبدیل می‌کند.\n\nفروشگاه و لایه بازی‌گونه سمت کلاینت اجرا می‌شوند تا حس سریعی داشته باشند، در حالی که احراز هویت، کاتالوگ محصولات و رتبه‌بندی جدول امتیازات از یک بک‌اند واقعی (Next.js route handlers به همراه Prisma/SQLite) سرو می‌شوند و یک پنل مدیریت کامل برای مدیریت محصولات نیز وجود دارد."
+    },
+    "highlights": {
+      "en": [
+        "Real server-backed leaderboard & auth",
+        "Full fake checkout & payment flow",
+        "XP, streaks, levels and achievements",
+        "Admin panel for live catalog management"
+      ],
+      "fa": [
+        "جدول امتیازات و احراز هویت واقعی سمت سرور",
+        "مسیر کامل تسویه‌حساب و پرداخت ساختگی",
+        "XP، استریک، سطح و دستاورد",
+        "پنل مدیریت برای مدیریت زنده کاتالوگ"
+      ]
+    },
+    "gallery": [
+      {
+        "src": "assets/projects/gallery/dopamall-1.png",
+        "caption": {
+          "en": "Homepage",
+          "fa": "صفحه اصلی"
+        }
+      },
+      {
+        "src": "assets/projects/gallery/dopamall-2.png",
+        "caption": {
+          "en": "Product catalog",
+          "fa": "کاتالوگ محصولات"
+        }
+      },
+      {
+        "src": "assets/projects/gallery/dopamall-3.png",
+        "caption": {
+          "en": "Guest profile & stats",
+          "fa": "پروفایل و آمار مهمان"
+        }
+      },
+      {
+        "src": "assets/projects/gallery/dopamall-4.png",
+        "caption": {
+          "en": "Achievements & missions",
+          "fa": "دستاوردها و ماموریت‌ها"
+        }
+      },
+      {
+        "src": "assets/projects/gallery/dopamall-5.png",
+        "caption": {
+          "en": "Login screen",
+          "fa": "صفحه ورود"
+        }
+      }
+    ],
+    "logo": "assets/projects/logos/dopamall.png",
+    "actionLinks": [
+      {
+        "type": "website",
+        "url": "https://www.dopamall.ir",
+        "label": {
+          "en": "Visit Live Site",
+          "fa": "مشاهده سایت"
+        }
+      }
+    ]
+  },
+  {
+    "id": "vehiscan",
+    "category": "application",
+    "year": "2026",
+    "tags": [
+      "Next.js",
+      "FastAPI",
+      "Python",
+      "YOLOv11",
+      "Computer Vision"
+    ],
+    "image": "assets/projects/vehiscan.png",
+    "title": {
+      "en": "VEHISCAN",
+      "fa": "وهیسکن"
+    },
+    "shortDescription": {
+      "en": "AI-powered vehicle detection and recognition — upload a photo and get every vehicle's type, color, position and plate back in under a second, running entirely on free, open-source models.",
+      "fa": "تشخیص و شناسایی خودرو با هوش مصنوعی — یک عکس آپلود کنید و نوع، رنگ، موقعیت و پلاک هر خودرو را در کمتر از یک ثانیه دریافت کنید؛ همه چیز روی مدل‌های متن‌باز و رایگان اجرا می‌شود."
+    },
+    "fullDescription": {
+      "en": "VEHISCAN is an open-source computer-vision app: drop in a street scene or parking-lot photo and it returns bounding boxes plus a structured report per vehicle — body style, dominant color, detection confidence, optional plate OCR, and (when enabled) brand, model, year range, country and fuel type.\n\nIt's built as much as a reference architecture as a working product. The AI layer sits entirely behind provider-agnostic interfaces (YOLOv11 for detection, OpenCV for color, EasyOCR for plates, Florence-2 + OpenCLIP for recognition), so swapping any model is a one-file change — already proven when brand/model recognition was added on top of the original MVP without touching the API or frontend. It runs fully offline after model download, with zero per-request cost and no third-party AI vendor dependency.",
+      "fa": "وهیسکن یک اپلیکیشن متن‌باز بینایی ماشین است: یک عکس از خیابان یا پارکینگ بدهید و کادرهای مرزی به‌همراه گزارشی ساختاریافته برای هر خودرو دریافت کنید — نوع بدنه، رنگ غالب، اطمینان تشخیص، OCR اختیاری پلاک و (در صورت فعال بودن) برند، مدل، بازه سال تولید، کشور سازنده و نوع سوخت.\n\nاین پروژه به همان اندازه که یک محصول کاربردی است، یک معماری مرجع نیز هست. لایه هوش مصنوعی کاملاً پشت اینترفیس‌های مستقل از ارائه‌دهنده قرار دارد (YOLOv11 برای تشخیص، OpenCV برای رنگ، EasyOCR برای پلاک، Florence-2 و OpenCLIP برای شناسایی)، بنابراین جایگزینی هر مدل تنها یک تغییر تک‌فایلی است — که این موضوع زمانی اثبات شد که قابلیت شناسایی برند/مدل بدون تغییر در API یا فرانت‌اند به نسخه اولیه اضافه شد. این ابزار پس از دانلود مدل‌ها کاملاً آفلاین اجرا می‌شود، بدون هزینه به‌ازای هر درخواست و بدون وابستگی به ارائه‌دهنده شخص‌ثالث."
+    },
+    "highlights": {
+      "en": [
+        "Multi-vehicle detection with bounding boxes",
+        "Brand, model, year & fuel-type recognition",
+        "Zero paid AI API calls — fully local models",
+        "Modular AI layer swappable behind interfaces"
+      ],
+      "fa": [
+        "تشخیص چند خودرو با کادرهای مرزی",
+        "شناسایی برند، مدل، سال و نوع سوخت",
+        "بدون فراخوانی API پولی هوش مصنوعی — کاملاً محلی",
+        "لایه هوش مصنوعی ماژولار و قابل جایگزینی"
+      ]
+    },
+    "gallery": [
+      {
+        "src": "assets/projects/gallery/vehiscan-1.png",
+        "caption": {
+          "en": "Upload screen",
+          "fa": "صفحه آپلود"
+        }
+      },
+      {
+        "src": "assets/projects/gallery/vehiscan-2.png",
+        "caption": {
+          "en": "Detection results",
+          "fa": "نتایج تشخیص"
+        }
+      }
+    ],
+    "logo": "assets/projects/logos/vehiscan.png",
+    "actionLinks": [
+      {
+        "type": "github",
+        "url": "https://github.com/JollyPandaWebProjects/AI-Car-Detection"
+      }
+    ],
+    "video": {
+      "url": "assets/projects/gallery/vehiscan-demo.mp4",
+      "poster": "assets/projects/gallery/vehiscan-2.png",
+      "caption": {
+        "en": "Upload → detect → results walkthrough",
+        "fa": "کلیپ آپلود تا نتایج"
+      }
+    }
+  },
+  {
+    "id": "detective-files",
+    "category": "game",
+    "year": "2026",
+    "tags": [
+      "Vanilla JavaScript",
+      "ES6 Modules",
+      "Plugin Architecture"
+    ],
+    "image": "assets/projects/detective-files.png",
+    "title": {
+      "en": "Detective Files",
+      "fa": "پرونده‌های کارآگاهی"
+    },
+    "shortDescription": {
+      "en": "A browser-based detective simulation where the player runs a fully functional police workstation — emails, CCTV, forensics, and an evidence board — to solve investigations.",
+      "fa": "یک شبیه‌ساز کارآگاهی مرورگرمحور که در آن بازیکن یک ایستگاه کاری پلیس کاملاً کاربردی — ایمیل، دوربین مداربسته، پزشکی قانونی و برد مدارک — را برای حل پرونده‌ها اداره می‌کند."
+    },
+    "fullDescription": {
+      "en": "Detective Files has no menus in the traditional sense — the simulated police OS itself is the game. Players read case emails, review CCTV footage, analyze forensic reports, and connect evidence on an investigation board, all through specialized apps running inside a windowed desktop environment.\n\nUnder the hood it's a strict plugin-based, event-driven architecture: every application (case management, mail, messenger, evidence, forensics, CCTV, criminal database, and more) is an isolated plugin that only ever communicates through a shared EventBus, making it straightforward to add new case types and tools without touching the core.",
+      "fa": "پرونده‌های کارآگاهی به معنای سنتی منو ندارد — سیستم‌عامل شبیه‌سازی‌شده پلیس خودِ بازی است. بازیکنان ایمیل‌های پرونده را می‌خوانند، فیلم‌های دوربین مداربسته را بررسی می‌کنند، گزارش‌های پزشکی قانونی را تحلیل می‌کنند و مدارک را روی برد تحقیقات به هم متصل می‌کنند؛ همه اینها از طریق اپلیکیشن‌های تخصصی درون یک محیط دسکتاپ پنجره‌ای.\n\nدر پس‌زمینه، یک معماری کاملاً پلاگین‌محور و رویدادمحور وجود دارد: هر اپلیکیشن (مدیریت پرونده، ایمیل، پیام‌رسان، مدارک، پزشکی قانونی، دوربین مداربسته، پایگاه داده مجرمان و موارد دیگر) یک پلاگین مستقل است که فقط از طریق یک EventBus مشترک ارتباط برقرار می‌کند و این کار افزودن انواع پرونده و ابزار جدید را بدون دست زدن به هسته اصلی ساده می‌کند."
+    },
+    "highlights": {
+      "en": [
+        "Fully simulated police workstation OS",
+        "Strict plugin-based, event-driven architecture",
+        "CCTV, forensics, evidence board & mail apps",
+        "No build step — native ES6 modules"
+      ],
+      "fa": [
+        "ایستگاه کاری پلیس کاملاً شبیه‌سازی‌شده",
+        "معماری سخت‌گیرانه پلاگین‌محور و رویدادمحور",
+        "اپلیکیشن‌های دوربین مداربسته، پزشکی قانونی، برد مدارک و ایمیل",
+        "بدون مرحله build — ماژول‌های بومی ES6"
+      ]
+    },
+    "gallery": [
+      {
+        "src": "assets/projects/gallery/detective-files-1.png",
+        "caption": {
+          "en": "The workstation desktop",
+          "fa": "دسکتاپ ایستگاه کاری"
+        }
+      },
+      {
+        "src": "assets/projects/gallery/detective-files-2.jpeg",
+        "caption": {
+          "en": "Detective Files",
+          "fa": "پرونده‌های کارآگاهی"
+        }
+      }
+    ],
+    "logo": "assets/projects/logos/detective-files.png",
+    "actionLinks": []
+  },
+  {
+    "id": "wild-guest-list",
+    "category": "game",
+    "year": "2026",
+    "tags": [
+      "JavaScript",
+      "Card Game",
+      "AI Opponents",
+      "i18n"
+    ],
+    "image": "assets/projects/wild-guest-list.png",
+    "title": {
+      "en": "Wild Guest List",
+      "fa": "لیست مهمانان وحشی"
+    },
+    "shortDescription": {
+      "en": "A strategic card game where wild animals compete for a spot at the ultimate party — play a card, trigger its ability, and manipulate a shared queue to outsmart your opponents.",
+      "fa": "یک بازی کارتی استراتژیک که در آن حیوانات وحشی برای جایی در مهمانی نهایی رقابت می‌کنند — کارت بازی کنید، توانایی‌اش را فعال کنید و صف مشترک را برای غافلگیر کردن حریفان دستکاری کنید."
+    },
+    "fullDescription": {
+      "en": "Each player controls 12 unique animal cards, each with an ability that can reorder, shift, or remove other animals from a shared queue. When the queue fills to five, it resolves: the front two animals join their owners' parties, the last is trashed, and the rest carry over — creating constant tension over when to play your strongest cards.\n\nThe game ships with three AI difficulty levels, a full interactive tutorial and first-run walkthrough, a leaderboard, game log, background music, and multi-language support, all built on a modular vanilla JavaScript architecture.",
+      "fa": "هر بازیکن ۱۲ کارت حیوان یکتا در اختیار دارد که هرکدام توانایی‌ای دارند که می‌تواند ترتیب صف مشترک را تغییر دهد، جابه‌جا کند یا حیوانی را از آن حذف کند. وقتی صف به پنج نفر برسد، حل می‌شود: دو حیوان جلویی به مهمانی صاحبانشان می‌پیوندند، آخری به زباله‌دان می‌رود و بقیه باقی می‌مانند — و این چرخه تنشی دائمی بر سر زمان بازی کردن قوی‌ترین کارت‌ها ایجاد می‌کند.\n\nاین بازی با سه سطح دشواری هوش مصنوعی، یک آموزش تعاملی کامل و راهنمای اولین اجرا، جدول امتیازات، گزارش بازی، موسیقی پس‌زمینه و پشتیبانی چندزبانه عرضه شده و همگی روی یک معماری ماژولار جاوااسکریپت خالص ساخته شده‌اند."
+    },
+    "highlights": {
+      "en": [
+        "12 unique animals with interacting abilities",
+        "3 AI difficulty levels",
+        "Interactive tutorial & first-run walkthrough",
+        "Leaderboard, game log & multi-language support"
+      ],
+      "fa": [
+        "۱۲ حیوان یکتا با توانایی‌های تعاملی",
+        "۳ سطح دشواری هوش مصنوعی",
+        "آموزش تعاملی و راهنمای اولین اجرا",
+        "جدول امتیازات، گزارش بازی و پشتیبانی چندزبانه"
+      ]
+    },
+    "gallery": [
+      {
+        "src": "assets/projects/gallery/wild-guest-list-1.png",
+        "caption": {
+          "en": "Start screen",
+          "fa": "صفحه شروع"
+        }
+      },
+      {
+        "src": "assets/projects/gallery/wild-guest-list-2.png",
+        "caption": {
+          "en": "Interactive tutorial",
+          "fa": "آموزش تعاملی"
+        }
+      },
+      {
+        "src": "assets/projects/gallery/wild-guest-list-3.png",
+        "caption": {
+          "en": "Choose bot difficulty",
+          "fa": "انتخاب سطح دشواری ربات‌ها"
+        }
+      },
+      {
+        "src": "assets/projects/gallery/wild-guest-list-4.png",
+        "caption": {
+          "en": "Gameplay board",
+          "fa": "تخته بازی"
+        }
+      },
+      {
+        "src": "assets/projects/gallery/wild-guest-list-5.png",
+        "caption": {
+          "en": "Help panel",
+          "fa": "پنل راهنما"
+        }
+      },
+      {
+        "src": "assets/projects/gallery/wild-guest-list-6.png",
+        "caption": {
+          "en": "The 12 animal cards",
+          "fa": "۱۲ کارت حیوان"
+        }
+      },
+      {
+        "src": "assets/projects/gallery/wild-guest-list-7.png",
+        "caption": {
+          "en": "Animal ability detail",
+          "fa": "جزئیات توانایی حیوان"
+        }
+      },
+      {
+        "src": "assets/projects/gallery/wild-guest-list-8.png",
+        "caption": {
+          "en": "Settings & language",
+          "fa": "تنظیمات و زبان"
+        }
+      }
+    ],
+    "logo": "assets/projects/logos/wild-guest-list.png",
+    "actionLinks": [
+      {
+        "type": "website",
+        "url": "https://www.useffarahmand.com/gamehub/games/WildGuestList/index.html",
+        "label": {
+          "en": "Play Now",
+          "fa": "همین حالا بازی کن"
+        }
+      }
+    ],
+    "video": {
+      "url": "assets/projects/gallery/wild-guest-list-demo.mp4",
+      "poster": "assets/projects/gallery/wild-guest-list-4.png",
+      "caption": {
+        "en": "Full gameplay walkthrough",
+        "fa": "کلیپ کامل گیم‌پلی"
+      }
+    }
+  },
+  {
+    "id": "restaurant-cfo",
+    "category": "application",
+    "year": "2026",
+    "tags": [
+      "Excel",
+      "Financial Modeling",
+      "RTL",
+      "Persian"
+    ],
+    "image": "assets/projects/restaurant-cfo.png",
+    "title": {
+      "en": "Restaurant CFO",
+      "fa": "سامانه هوشمند تحلیل و مدیریت مالی رستوران"
+    },
+    "shortDescription": {
+      "en": "A 14-sheet financial toolkit that turns raw restaurant costs and sales into a live executive dashboard — recipe costing, menu pricing, and a 0–100 financial health score.",
+      "fa": "یک ابزار مالی ۱۴ شیتی که هزینه‌ها و فروش خام رستوران را به یک داشبورد مدیریتی زنده تبدیل می‌کند — هزینه‌یابی دستور پخت، قیمت‌گذاری منو و امتیاز سلامت مالی صفر تا صد."
+    },
+    "fullDescription": {
+      "en": "Restaurant CFO exists because most restaurant owners see total sales, not real per-item profit, until it's too late. It's a single Excel workbook of 14 connected sheets with live formulas: enter ingredient costs once, build recipes on top of them, and every menu item's food cost, margin, and profit status updates automatically — no accounting background required.\n\nThe Executive Dashboard rolls everything into a 0–100 Restaurant Health Score built from ten weighted factors (food cost, margin, waste, packaging cost, overhead ratio, pricing accuracy, and more), flags menu items that are quietly losing money, and classifies each item as a Star, Plow Horse, Puzzle, or Dog to make the next action obvious. It ships in both Persian and English, is Toman-ready, and comes with a full Persian Word guide. A web-app rebuild — real database, server-side calculation engine, login-based multi-restaurant access — is already in active planning.",
+      "fa": "سامانه هوشمند تحلیل و مدیریت مالی رستوران به این دلیل ساخته شد که اکثر صاحبان رستوران فقط فروش کل را می‌بینند، نه سود واقعی هر آیتم را — تا وقتی که خیلی دیر شده. این ابزار یک فایل اکسل با ۱۴ شیت متصل به‌هم و فرمول‌های زنده است: قیمت مواد اولیه را یک‌بار وارد کنید، دستور پخت‌ها را روی آن بسازید و هزینه غذا، حاشیه سود و وضعیت هر آیتم منو به‌طور خودکار به‌روزرسانی می‌شود — بدون نیاز به پیش‌زمینه حسابداری.\n\nداشبورد مدیریتی همه چیز را در یک «امتیاز سلامت مالی رستوران» از صفر تا صد خلاصه می‌کند که از ده عامل وزن‌دار (هزینه غذا، حاشیه سود، ضایعات، هزینه بسته‌بندی، نسبت سربار، دقت قیمت‌گذاری و موارد دیگر) ساخته شده، آیتم‌هایی از منو را که بی‌سروصدا ضرر می‌دهند مشخص می‌کند و هر آیتم را به ستاره، اسب زحمتکش، پازل یا سگ طبقه‌بندی می‌کند تا اقدام بعدی مشخص باشد. این ابزار به فارسی و انگلیسی، آماده برای واحد پول تومان و همراه با راهنمای کامل فارسی در قالب Word عرضه می‌شود. بازسازی نسخه وب — با دیتابیس واقعی، موتور محاسبه سمت سرور و دسترسی چندرستورانی مبتنی بر ورود — هم‌اکنون در حال برنامه‌ریزی فعال است."
+    },
+    "highlights": {
+      "en": [
+        "14 connected sheets with live formulas",
+        "0–100 Restaurant Health Score",
+        "Automatic menu engineering (Star/Plow Horse/Puzzle/Dog)",
+        "Bilingual (Persian/English), Toman-ready"
+      ],
+      "fa": [
+        "۱۴ شیت متصل به‌هم با فرمول‌های زنده",
+        "امتیاز سلامت مالی رستوران از صفر تا صد",
+        "مهندسی منوی خودکار (ستاره/اسب زحمتکش/پازل/سگ)",
+        "دوزبانه (فارسی/انگلیسی)، آماده برای تومان"
+      ]
+    },
+    "gallery": [
+      {
+        "src": "assets/projects/gallery/restaurant-cfo-1.png",
+        "caption": {
+          "en": "Executive Dashboard",
+          "fa": "داشبورد مدیریتی"
+        }
+      }
+    ],
+    "logo": "assets/projects/logos/restaurant-cfo.png",
+    "actionLinks": [
+      {
+        "type": "website",
+        "url": "https://www.jollypanda.ir/projects/Restaurant-CFO",
+        "label": {
+          "en": "View Project",
+          "fa": "مشاهده پروژه"
+        }
+      }
+    ]
+  }
+]

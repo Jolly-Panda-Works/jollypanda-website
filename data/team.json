@@ -1,0 +1,51 @@
+[
+  {
+    "image": "assets/team/Usef Farahmand.png",
+    "firstName": { "en": "Usef", "fa": "یوسف" },
+    "lastName": { "en": "Farahmand", "fa": "فرحمند" },
+    "position": { "en": "Creative Director", "fa": "مدیر خلاق" },
+    "link": "https://www.linkedin.com/in/useffarahmand/"
+  },
+  {
+    "image": "assets/team/Abolfazl Nezami.jpg",
+    "firstName": { "en": "Abolfazl", "fa": "ابوالفضل" },
+    "lastName": { "en": "Nezami", "fa": "نظامی" },
+    "position": { "en": "Lead Flutter Developer", "fa": "توسعه‌دهنده ارشد فلاتر" },
+    "link": "https://www.linkedin.com/in/abolfazlnezami/"
+  },
+  {
+    "image": "assets/team/Sepehr Chahnavi.jpg",
+    "firstName": { "en": "Sepehr", "fa": "سپهر" },
+    "lastName": { "en": "Chahnavi", "fa": "چهنوی" },
+    "position": { "en": "Lead Game Developer", "fa": "توسعه‌دهنده ارشد بازی" },
+    "link": "https://www.linkedin.com/in/sepehr-chahnavi/"
+  },
+  {
+    "image": "assets/team/Mojtaba MofidiNejad.jpg",
+    "firstName": { "en": "Mojtaba", "fa": "مجتبی" },
+    "lastName": { "en": "MofidiNejad", "fa": "مفیدی نژاد" },
+    "position": { "en": "Game Designer", "fa": "طراح بازی" },
+    "link": "https://www.linkedin.com/in/mojtaba-mofidinejad-23a32a237/"
+  },
+  {
+    "image": "assets/team/Danial Mohammadzadeh.jpg",
+    "firstName": { "en": "Danial", "fa": "دانیال" },
+    "lastName": { "en": "Mohammadzadeh", "fa": "محمدزاده" },
+    "position": { "en": "Backend Developer", "fa": "توسعه‌دهنده سرور" },
+    "link": "https://www.linkedin.com/in/danial-mohammadzadeh/"
+  },
+  {
+    "image": "assets/team/Yasamin Farahmand.png",
+    "firstName": { "en": "Yasamin", "fa": "یاسمین" },
+    "lastName": { "en": "Farahmand", "fa": "فرحمند" },
+    "position": { "en": "2D Artist", "fa": "هنرمند دو‌بعدی" },
+    "link": "https://www.linkedin.com/in/yasamin-farahmand-22b513256/"
+  },
+  {
+    "image": "assets/team/Shadi Mahzoun.jpg",
+    "firstName": { "en": "Shadi", "fa": "شادی" },
+    "lastName": { "en": "Mahzoun", "fa": "محزون" },
+    "position": { "en": "3D Artist", "fa": "هنرمند سه‌بعدی" },
+    "link": "https://www.linkedin.com/in/shadi-mahzoun-22b513256/"
+  }
+]

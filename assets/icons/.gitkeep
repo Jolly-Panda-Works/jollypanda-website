@@ -1,0 +1,2 @@
+Reserved for standalone SVG icon assets if a future page needs icons
+outside of the inline <svg> markup used in index.html / about.html.

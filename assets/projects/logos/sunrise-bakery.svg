@@ -1,0 +1,10 @@
+<svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sunrise Bakery logo">
+  <defs>
+    <linearGradient id="lg-sunrise-bakery" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0852e"/>
+      <stop offset="100%" stop-color="#be5a29"/>
+    </linearGradient>
+  </defs>
+  <circle cx="48" cy="48" r="48" fill="url(#lg-sunrise-bakery)"/>
+  <text x="48" y="61" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-weight="800" font-size="34" fill="#ffffff">SB</text>
+</svg>

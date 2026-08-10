@@ -1,0 +1,29 @@
+/* TEAM */
+CEO & Founder: Usef Farahmand
+Site: https://www.useffarahmand.com
+LinkedIn: https://www.linkedin.com/in/useffarahmand/
+Role: Creative Director
+
+Lead Flutter Developer: Abolfazl Nezami
+LinkedIn: https://www.linkedin.com/in/abolfazlnezami/
+
+Lead Game Developer: Sepehr Chahnavi
+LinkedIn: https://www.linkedin.com/in/sepehr-chahnavi/
+
+Game Designer: Mojtaba MofidiNejad
+LinkedIn: https://www.linkedin.com/in/mojtaba-mofidinejad-23a32a237/
+
+Backend Developer: Danial Mohammadzadeh
+LinkedIn: https://www.linkedin.com/in/danial-mohammadzadeh/
+
+2D Artist: Yasamin Farahmand
+LinkedIn: https://www.linkedin.com/in/yasamin-farahmand-22b513256/
+
+/* THANKS */
+Everyone who plays our games and uses our software.
+
+/* SITE */
+Last update: 2026/08/04
+Language: English / Persian (Farsi)
+Doctype: HTML5
+IDE: —

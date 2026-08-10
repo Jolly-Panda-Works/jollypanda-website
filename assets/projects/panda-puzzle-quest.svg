@@ -1,0 +1,13 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Panda Puzzle Quest">
+  <defs>
+    <linearGradient id="g-panda-puzzle-quest" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fcdd4e"/>
+      <stop offset="100%" stop-color="#dcb52a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#g-panda-puzzle-quest)"/>
+  <circle cx="640" cy="90" r="150" fill="rgba(255,255,255,0.10)"/>
+  <circle cx="60" cy="440" r="120" fill="rgba(255,255,255,0.08)"/>
+  <path d="M170 250 h60 v20 h20 v20 h-20 v20 h-20 v-20 h-20 v-20 h-20 z" fill="rgba(255,255,255,0.35)"/><circle cx="330" cy="245" r="12" fill="rgba(255,255,255,0.35)"/><circle cx="360" cy="275" r="12" fill="rgba(255,255,255,0.35)"/>
+  <text x="400" y="440" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-weight="800" font-size="40" fill="#ffffff" opacity="0.95">Panda Puzzle Quest</text>
+</svg>
