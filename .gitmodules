@@ -1,3 +1,6 @@
 [submodule "projects/restaurant-cfo"]
 	path = projects/restaurant-cfo
 	url = https://github.com/JollyPandaWindowsApps/Restaurant-CFO.git
+[submodule "projects/Restaurant-CFO"]
+	path = projects/Restaurant-CFO
+	url = https://github.com/JollyPandaWindowsApps/Restaurant-CFO.git
