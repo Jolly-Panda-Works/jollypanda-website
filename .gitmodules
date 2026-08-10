@@ -4,3 +4,6 @@
 [submodule "projects/Restaurant-CFO"]
 	path = projects/Restaurant-CFO
 	url = https://github.com/JollyPandaWindowsApps/Restaurant-CFO.git
+[submodule "projects/Wild-Guest-List"]
+	path = projects/Wild-Guest-List
+	url = https://github.com/JollyPandaWebGames/Wild-Guest-List.git
