@@ -10,7 +10,7 @@
       "SQLite",
       "Tailwind CSS"
     ],
-    "image": "assets/projects/dopamall.png",
+    "image": "assets/projects/dopamall/dopamall banner.png",
     "title": {
       "en": "Dopamall",
       "fa": "دوپامال"
@@ -39,42 +39,42 @@
     },
     "gallery": [
       {
-        "src": "assets/projects/gallery/dopamall-1.png",
+        "src": "assets/projects/dopamall/gallery/dopamall-1.png",
         "caption": {
           "en": "Homepage",
           "fa": "صفحه اصلی"
         }
       },
       {
-        "src": "assets/projects/gallery/dopamall-2.png",
+        "src": "assets/projects/dopamall/gallery/dopamall-1.png",
         "caption": {
           "en": "Product catalog",
           "fa": "کاتالوگ محصولات"
         }
       },
       {
-        "src": "assets/projects/gallery/dopamall-3.png",
+        "src": "assets/projects/dopamall/gallery/dopamall-3.png",
         "caption": {
           "en": "Guest profile & stats",
           "fa": "پروفایل و آمار مهمان"
         }
       },
       {
-        "src": "assets/projects/gallery/dopamall-4.png",
+        "src": "assets/projects/dopamall/gallery/dopamall-4.png",
         "caption": {
           "en": "Achievements & missions",
           "fa": "دستاوردها و ماموریت‌ها"
         }
       },
       {
-        "src": "assets/projects/gallery/dopamall-5.png",
+        "src": "assets/projects/dopamall/gallery/dopamall-5.png",
         "caption": {
           "en": "Login screen",
           "fa": "صفحه ورود"
         }
       }
     ],
-    "logo": "assets/projects/logos/dopamall.png",
+    "logo": "assets/projects/dopamall/logo.png",
     "actionLinks": [
       {
         "type": "website",
@@ -96,7 +96,7 @@
       "RTL",
       "Persian"
     ],
-    "image": "assets/projects/restaurant-cfo.png",
+    "image": "assets/projects/restaurant-cfo/restaurant-cfo.png",
     "title": {
       "en": "Restaurant CFO",
       "fa": "سامانه هوشمند تحلیل و مدیریت مالی رستوران"
@@ -125,14 +125,14 @@
     },
     "gallery": [
       {
-        "src": "assets/projects/gallery/restaurant-cfo-1.png",
+        "src": "assets/projects/restaurant-cfo/restaurant-cfo.png",
         "caption": {
           "en": "Executive Dashboard",
           "fa": "داشبورد مدیریتی"
         }
       }
     ],
-    "logo": "assets/projects/logos/restaurant-cfo.png",
+    "logo": "assets/projects/restaurant-cfo/logo.png",
     "actionLinks": [
       {
         "type": "website",
