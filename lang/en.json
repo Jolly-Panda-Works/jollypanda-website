@@ -16,7 +16,7 @@
     "name": "Jolly Panda Studio"
   },
   "hero": {
-    "eyebrow": "Creative Software Studio",
+    "eyebrow": "Game Development Studio, Website & Software Development",
     "title": {
       "line1": "Jolly Panda",
       "line2": "Studio"
@@ -43,21 +43,21 @@
     "subtitle": "Every project draws on the same playful, entertainment-first thinking — whether it's a website, a game, or the software behind them.",
     "web": {
       "title": "Website Development",
-      "desc": "Fast, responsive, good-looking websites that represent your brand as well as your best product does.",
+      "desc": "In website design and development, we build fast, responsive, good-looking sites that represent your brand as well as your best product does.",
       "point1": "Custom design systems",
       "point2": "Bilingual & RTL-ready",
       "point3": "Performance-first builds"
     },
     "game": {
       "title": "Game Development",
-      "desc": "From concept to launch, we build entertaining, polished games designed to be genuinely fun.",
+      "desc": "As a game development studio, we take projects from concept to launch, building entertaining, polished games designed to be genuinely fun.",
       "point1": "2D & 3D gameplay",
       "point2": "Cross-platform builds",
       "point3": "Original art & sound"
     },
     "software": {
       "title": "Software Development",
-      "desc": "Custom tools and platforms built to be reliable first, and pleasant to use every time after.",
+      "desc": "As a software development company, we build custom tools and platforms that are reliable first, and pleasant to use every time after.",
       "point1": "Product platforms",
       "point2": "Internal tools",
       "point3": "API integrations"
