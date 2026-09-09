@@ -10,7 +10,7 @@
 (function () {
   "use strict";
 
-  var DATA_URL = "data/projects.json";
+  var DATA_URL = "/data/projects.json";
   var DEFAULT_LANG = "en";
 
   var currentLang = document.documentElement.getAttribute("lang") || DEFAULT_LANG;
@@ -625,7 +625,7 @@
   }
 
   function loadDictionaryThenRender() {
-    fetch("lang/" + currentLang + ".json")
+    fetch("/lang/" + currentLang + ".json")
       .then(function (res) {
         return res.ok ? res.json() : null;
       })

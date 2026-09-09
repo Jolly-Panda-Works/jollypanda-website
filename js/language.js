@@ -1,9 +1,14 @@
 /* ==========================================================================
    Jolly Panda Studio — language.js
    Loads /lang/{code}.json and applies translations to every element with a
-   data-i18n="dot.path.key" attribute, without a page reload. Persists the
-   chosen language in localStorage and updates <html lang/dir> plus the
-   active state on every .lang-switch button on the page.
+   data-i18n="dot.path.key" attribute, without a page reload. The active
+   language is derived from the URL (root pages = English, /fa/ pages =
+   Persian) so search engines always see a consistent language per URL —
+   see /fa/ for the crawlable Persian versions with their own <html lang>,
+   titles, meta tags and hreflang links baked in server-side.
+   The EN/FA buttons navigate between the matching root and /fa/ page
+   instead of swapping text in place, so the URL always matches what's
+   on screen.
    ========================================================================== */
 
 (function () {
@@ -24,24 +29,28 @@
     }, obj);
   }
 
+  function isFaPath() {
+    return /^\/fa(\/|$)/.test(window.location.pathname);
+  }
+
+  // The current page's filename relative to its language root, e.g.
+  // "/services.html" -> "services.html", "/fa/" -> "index.html".
+  function currentPageFile() {
+    var path = window.location.pathname;
+    var file = isFaPath() ? path.replace(/^\/fa\/?/, "") : path.replace(/^\//, "");
+    return file || "index.html";
+  }
+
+  // URL is the source of truth for which language is on screen — this
+  // keeps every page's language consistent with its <html lang>, meta
+  // tags and hreflang annotations for search engines.
   function detectInitialLang() {
-    var stored = null;
-    try {
-      stored = localStorage.getItem(STORAGE_KEY);
-    } catch (e) {
-      /* localStorage unavailable (private mode, etc.) — fall through */
-    }
-    if (stored && SUPPORTED_LANGS.indexOf(stored) !== -1) return stored;
-
-    var browserLang = (navigator.language || "").slice(0, 2);
-    if (SUPPORTED_LANGS.indexOf(browserLang) !== -1) return browserLang;
-
-    return DEFAULT_LANG;
+    return isFaPath() ? "fa" : DEFAULT_LANG;
   }
 
   function fetchDictionary(lang) {
     if (cache[lang]) return Promise.resolve(cache[lang]);
-    return fetch("lang/" + lang + ".json")
+    return fetch("/lang/" + lang + ".json")
       .then(function (res) {
         if (!res.ok) throw new Error("Failed to load language file: " + lang);
         return res.json();
@@ -84,6 +93,11 @@
     });
   }
 
+  // Applies a language's text to the current page in place. Used on load
+  // to (re)apply translations for dynamically-rendered content (team and
+  // project cards read document.documentElement's lang themselves, but
+  // this also keeps everything in sync and fires the languagechange event
+  // they listen for).
   function setLanguage(lang) {
     if (SUPPORTED_LANGS.indexOf(lang) === -1) lang = DEFAULT_LANG;
 
@@ -109,11 +123,21 @@
     });
   }
 
+  // Clicking EN/FA navigates to the matching URL (root page <-> /fa/ page)
+  // instead of switching text in place, so the address bar and the
+  // rendered language always match — required for the /fa/ pages to be
+  // indexed as genuinely separate, crawlable Persian content.
   function initLanguageSwitchers() {
     document.querySelectorAll(".lang-switch__btn").forEach(function (btn) {
       btn.addEventListener("click", function () {
         var lang = btn.getAttribute("data-lang");
-        setLanguage(lang);
+        var alreadyThisLang = lang === detectInitialLang();
+        if (alreadyThisLang) return;
+
+        var file = currentPageFile();
+        var hash = window.location.hash || "";
+        var target = (lang === "fa" ? "/fa/" + file : "/" + file) + hash;
+        window.location.href = target;
       });
     });
   }

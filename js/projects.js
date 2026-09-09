@@ -12,7 +12,7 @@
 (function () {
   "use strict";
 
-  var DATA_URL = "data/projects.json";
+  var DATA_URL = "/data/projects.json";
   var DEFAULT_LANG = "en";
   var CATEGORIES = ["website", "game", "application"];
 
@@ -228,7 +228,7 @@
   }
 
   function loadDictionaryThenRender() {
-    fetch("lang/" + currentLang + ".json")
+    fetch("/lang/" + currentLang + ".json")
       .then(function (res) {
         return res.ok ? res.json() : null;
       })

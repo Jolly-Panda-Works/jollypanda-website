@@ -15,7 +15,7 @@
 (function () {
   "use strict";
 
-  var DATA_URL = "data/team.json";
+  var DATA_URL = "/data/team.json";
   var DEFAULT_LANG = "en";
 
   var teamGrid = null;
