@@ -2710,3 +2710,51 @@ html[dir="rtl"] .project-card:hover .project-card__link .dir-icon {
     grid-template-columns: 1.1fr 0.9fr;
   }
 }
+
+/* ---------- 15. 404 page ---------- */
+.notfound {
+  padding-top: calc(var(--nav-height) + var(--space-lg));
+  padding-bottom: var(--space-xl);
+  min-height: 70vh;
+  display: grid;
+  align-items: center;
+}
+
+.notfound__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.notfound__img {
+  width: min(100%, 360px);
+  height: auto;
+}
+
+.notfound__title {
+  font-size: var(--fs-h1);
+  line-height: var(--lh-tight);
+  margin-top: var(--space-xs);
+}
+
+.notfound__text {
+  max-width: 46ch;
+  margin-top: var(--space-xs);
+  font-size: var(--fs-lead);
+  color: var(--color-ink-soft);
+}
+
+.notfound__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-sm);
+  margin-top: var(--space-md);
+}
+
+@media (max-width: 600px) {
+  .notfound__actions .btn {
+    width: 100%;
+  }
+}
