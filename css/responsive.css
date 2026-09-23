@@ -12,10 +12,19 @@
 }
 
 .nav__links {
-  position: fixed;
-  top: var(--nav-height);
+  /* absolute, not fixed: .site-header has backdrop-filter, which makes it
+     the containing block for fixed descendants per the CSS spec, so a
+     "fixed" menu here was actually positioned relative to the ~72px-tall
+     header (top: nav-height + bottom: 0 of THAT box = ~zero height), and
+     its content rendered outside that box with no background behind it.
+     Positioning it absolute against the header (which is itself
+     position: fixed, so it's a valid containing block) fixes this. */
+  position: absolute;
+  top: 100%;
   inset-inline: 0;
-  bottom: 0;
+  height: calc(100vh - var(--nav-height));
+  height: calc(100dvh - var(--nav-height));
+  overflow-y: auto;
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
@@ -195,6 +204,8 @@
 
   .nav__links {
     position: static;
+    height: auto;
+    overflow: visible;
     flex-direction: row;
     align-items: center;
     gap: var(--space-lg);
