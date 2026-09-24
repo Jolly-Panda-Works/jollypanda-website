@@ -64,6 +64,16 @@
     },
     "viewAll": "View All Services"
   },
+  "spotlight": {
+    "eyebrow": "New From Jolly Panda",
+    "title": "Your own personal profile page",
+    "body1": "me.jollypanda.ir is our newest product: a personal profile and portfolio page — resume, work and contact details together — published at an address that's entirely yours.",
+    "body2": "Pick a plan, send a request, and we design and publish it for you. No code to write, no hosting to manage.",
+    "urlLabel": "Your page address looks like this:",
+    "cta": "Explore me.jollypanda.ir",
+    "secondary": "See example profiles",
+    "imageAlt": "Jolly Panda mascot on a me.jollypanda.ir profile card"
+  },
   "why": {
     "eyebrow": "Why Jolly Panda",
     "title": "Built different, on purpose",

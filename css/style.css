@@ -2758,3 +2758,72 @@ html[dir="rtl"] .project-card:hover .project-card__link .dir-icon {
     width: 100%;
   }
 }
+
+/* ---------- 16. Product spotlight (me.jollypanda.ir) ---------- */
+.spotlight__grid {
+  display: grid;
+  gap: var(--space-2xl);
+  align-items: center;
+}
+
+.spotlight__visual {
+  position: relative;
+}
+
+.spotlight__mascot {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lift);
+}
+
+.spotlight__url {
+  position: absolute;
+  inset-inline: var(--space-lg);
+  bottom: calc(var(--space-lg) * -1);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-sm) var(--space-md) var(--space-md);
+  box-shadow: var(--shadow-soft);
+}
+
+.spotlight__url-label {
+  display: block;
+  font-size: var(--fs-tiny);
+  color: var(--color-ink-faint);
+  margin-bottom: var(--space-3xs);
+}
+
+.spotlight__url-mock {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: var(--font-en);
+  font-size: clamp(0.85rem, 2.6vw, 1.05rem);
+  font-weight: 700;
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+.spotlight__url-domain {
+  color: var(--color-ink-faint);
+}
+
+.spotlight__url-slug {
+  color: var(--color-orange-dark);
+}
+
+.spotlight__body p {
+  margin-top: var(--space-sm);
+}
+
+.spotlight__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-md);
+  margin-top: var(--space-lg);
+}
+

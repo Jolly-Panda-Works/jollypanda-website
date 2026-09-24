@@ -86,6 +86,14 @@
   grid-template-columns: 1fr;
 }
 
+.spotlight__grid {
+  grid-template-columns: 1fr;
+}
+
+.spotlight__visual {
+  margin-bottom: var(--space-xl);
+}
+
 .services__grid {
   grid-template-columns: 1fr;
 }
@@ -370,6 +378,14 @@
 
   .about-preview__grid {
     grid-template-columns: 0.85fr 1.15fr;
+  }
+
+  .spotlight__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .spotlight__visual {
+    margin-bottom: 0;
   }
 
   .services__grid {
