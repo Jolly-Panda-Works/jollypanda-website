@@ -128,30 +128,6 @@
 <p data-i18n="projectsPage.hero.intro" data-reveal="">A look at the games, websites and applications we've shipped — search or filter to find what you're after.</p>
 </div>
 </section>
-<!-- ============ PROJECTS ============ -->
-<section class="section section--tight">
-<div class="container">
-<div class="projects-toolbar" data-reveal="">
-<div class="projects-search">
-<span aria-hidden="true" class="projects-search__icon">
-<svg fill="none" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"></circle><path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-linecap="round" stroke-width="2"></path></svg>
-</span>
-<label class="visually-hidden" data-i18n="projectsPage.searchLabel" for="projectsSearch">Search projects</label>
-<input autocomplete="off" class="projects-search__input" data-i18n-attr="placeholder:projectsPage.searchPlaceholder" id="projectsSearch" placeholder="Search projects…" type="text"/>
-</div>
-<div aria-label="Filter projects by category" class="projects-filters" role="group">
-<button aria-pressed="true" class="filter-chip is-active" data-filter="all" data-i18n="projectsPage.filters.all" type="button">All</button>
-<button aria-pressed="false" class="filter-chip" data-filter="website" data-i18n="projectsPage.filters.website" type="button">Websites</button>
-<button aria-pressed="false" class="filter-chip" data-filter="game" data-i18n="projectsPage.filters.game" type="button">Games</button>
-<button aria-pressed="false" class="filter-chip" data-filter="application" data-i18n="projectsPage.filters.application" type="button">Applications</button>
-</div>
-</div>
-<p aria-live="polite" class="projects-results" id="projectsResults"></p>
-<div class="projects__grid" data-reveal-group="" id="projectsGrid">
-<div class="projects__loading" data-i18n="projectsPage.loading">Loading projects…</div>
-</div>
-</div>
-</section>
 <!-- ============ PRODUCT SPOTLIGHT: ME.JOLLYPANDA.IR ============ -->
 <section class="section spotlight" id="me-profile">
 <div class="container spotlight__grid">
@@ -179,6 +155,30 @@
 </span>
 </a>
 </div>
+</div>
+</div>
+</section>
+<!-- ============ PROJECTS ============ -->
+<section class="section section--tight">
+<div class="container">
+<div class="projects-toolbar" data-reveal="">
+<div class="projects-search">
+<span aria-hidden="true" class="projects-search__icon">
+<svg fill="none" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"></circle><path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-linecap="round" stroke-width="2"></path></svg>
+</span>
+<label class="visually-hidden" data-i18n="projectsPage.searchLabel" for="projectsSearch">Search projects</label>
+<input autocomplete="off" class="projects-search__input" data-i18n-attr="placeholder:projectsPage.searchPlaceholder" id="projectsSearch" placeholder="Search projects…" type="text"/>
+</div>
+<div aria-label="Filter projects by category" class="projects-filters" role="group">
+<button aria-pressed="true" class="filter-chip is-active" data-filter="all" data-i18n="projectsPage.filters.all" type="button">All</button>
+<button aria-pressed="false" class="filter-chip" data-filter="website" data-i18n="projectsPage.filters.website" type="button">Websites</button>
+<button aria-pressed="false" class="filter-chip" data-filter="game" data-i18n="projectsPage.filters.game" type="button">Games</button>
+<button aria-pressed="false" class="filter-chip" data-filter="application" data-i18n="projectsPage.filters.application" type="button">Applications</button>
+</div>
+</div>
+<p aria-live="polite" class="projects-results" id="projectsResults"></p>
+<div class="projects__grid" data-reveal-group="" id="projectsGrid">
+<div class="projects__loading" data-i18n="projectsPage.loading">Loading projects…</div>
 </div>
 </div>
 </section>
